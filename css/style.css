@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+
+:root {
+   --primary-color: #1E6F5C;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Poppins', sans-serif;
+   color: #333;
+   line-height: 1.6;
+}
+
+ul {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+   color: #333;
+}
+
+h1, h2 {
+   font-weight: 300;
+   line-height: 1.2;
+   margin: 10px auto;
+}
+
+p {
+   margin: 10px auto;
+}
+
+img {
+   width: 100%;
+}
+
+.navbar {
+   background-color: var(--primary-color);
+   color: #fff;
+   height: 70px;
+}
+
+/* showcase */
+.showcase {
+   height: 400px;
+   background-color: var(--primary-color);
+   color: #fff;
+   position: relative;
+}
+
+.showcase h1 {
+   font-size: 40px;
+}
+
+.showcase p {
+   margin: 20px auto;
+}
+
+.showcase .bd-grid {
+   grid-template-columns: 55% 45%;
+   gap: 30px;
+   overflow: visible;
+}
+
+.card {
+   background-color: #29BB89;
+   border-radius: 10px;
+   margin: 10px;
+   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.showcase-form {
+   position: relative;
+   top: 70px;
+   height: 350px;
+   width: 400px;
+   z-index: 100;
+}
+
+.dots-wrapper {
+   display: flex;
+   align-items: center;
+   background-color: #f1f5f1;
+   border-radius: 5px 5px 0 0;
+   padding: 10px;
+}
+
+.dots {
+   width: 15px;
+   height: 15px;
+   background-color: black;
+   border-radius: 50%;
+   margin: 0 5px;
+}
+
+.one {
+   background-color: #1be610;
+}
+
+.two {
+   background-color: #eb3232;
+}
+
+.three {
+   background-color: #ffde26;
+}
+
+.img-card {
+   display: grid;
+  grid-template-columns:   repeat(auto-fit, minmax(150px, 1fr ));
+   justify-items: center;
+   gap: 40px;
+}
+
+.img-card h2 {
+   text-align: center;
+   font-size: .90rem;
+}
+
+.img-card .img-randy {
+
+   text-align: center;
+   width: 100px;
+   height: 100px;
+   /* padding: 1px; */
+}
+
+
+
+/* utilities */
+.container {
+   max-width: 1100px;
+   padding: 0 40px;
+   overflow: hidden;
+   margin: auto;
+}
+
+.flex {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 100%;
+}
+
+.navbar ul {
+   display: flex;
+}
+
+.navbar a {
+   color: #fff;
+   padding: 10px;
+   margin: auto 5px;
+}
+
+.navbar a:hover {
+   border-bottom: 2px #fff solid;
+}
+
+.bd-grid {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 20px;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   /* background-color: red; */
+}
