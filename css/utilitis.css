@@ -1,0 +1,132 @@
+
+/* utilitis */
+.container {
+   max-width: 1100px;
+   margin: 0 auto;
+   overflow: auto;
+   padding: 0 40px;
+}
+ 
+
+.card{
+   background-color: #fff;
+   border-radius: 10px;
+   color: #333;
+   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+   padding: 20px;
+   margin: 10px;
+}
+
+.btn{
+   display: inline-block;
+   padding: 10px 25px;
+   border: none;
+   background-color: var(--color-main);
+   border-radius: 5px;
+   cursor: pointer;
+   color: #fff;
+   transition: .3s;
+}
+
+.btn:hover{
+   transform: scale(0.98);
+}
+
+.btn-outline{
+   background-color: transparent;
+   border: 1px solid #fff;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.flex {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.grid{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 20px;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   overflow: hidden;
+}
+
+.grid-3{
+   grid-template-columns: repeat(3, 1fr);
+}
+
+
+/* margin */
+.my-1{
+  margin: 1rem auto;
+}
+.my-2{
+  margin: 1.5rem auto;
+}
+.my-3{
+  margin: 2rem auto;
+}
+.my-4{
+  margin: 3rem auto;
+}
+.my-5{
+  margin: 4rem auto;
+}
+
+
+.m{
+  margin: 1rem;
+}
+.m{
+  margin: 1.5rem;
+}
+.m{
+  margin: 2rem;
+}
+.m{
+  margin: 3rem;
+}
+.m{
+  margin: 4rem;
+}
+
+
+
+/* padding */
+.py-1{
+  padding: 1rem auto;
+}
+.py-2{
+  padding: 1.5rem auto;
+}
+.py-3{
+  padding: 2rem auto;
+}
+.py-4{
+  padding: 3rem auto;
+}
+.py-5{
+  padding: 4rem auto;
+}
+
+
+.p-1{
+  padding: 1rem;
+}
+.p-2{
+  padding: 1.5rem;
+}
+.p-3{
+  padding: 2rem;
+}
+.p-4{
+  padding: 3rem;
+}
+.p-5{
+  padding: 4rem;
+}
